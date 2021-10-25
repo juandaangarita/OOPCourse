@@ -43,3 +43,12 @@ Se cuentan con los siguientes escenarios:
 9. PayPal: Forma de pago.
 10. Cash: Forma de pago.
 11. Trip: Quién ejecuta el viaje, que ruta se seleccionó, la forma de pago, el valor, el servicio seleccionado
+
+La herencia en Java se define de la siguiente forma:
+> class ClaseQueHereda extends ClaseDeDondeHereda{
+   Tipo variable
+   public ClaseQueHereda(Tipo VariableHeredad, Tipo VariablesPropias)
+   super(VariableHeredad);
+   this.VariablesPropias = variable;
+   }
+
