@@ -11,5 +11,13 @@ public class Account {
         this.name = name;
         this.document = document;
     }
-    
+
+    void printDataAccount(){
+        System.out.println("Name: " + name);
+        System.out.println("Document: " + document);
+        System.out.println("Email: " + email);
+        System.out.println("----------------------------");
+    }
+  
 }
+

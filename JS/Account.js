@@ -7,3 +7,9 @@ class Account{
         this.password;
     }
 }
+
+Account.prototype.printDataAccount = function(){
+    console.log(this.name)
+    console.log(this.document)
+    console.log(this.email)
+}

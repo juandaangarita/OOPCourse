@@ -1,3 +1,4 @@
+from user import User
 from car import Car
 from account import Account
 from uberBlack import UberBlack
@@ -11,3 +12,6 @@ if __name__ == "__main__":
     uberBlack = UberBlack("PFF591",  Account("Pepe Arroyave","120897uht"), "Chevrolet", "Leather")
     print(vars(uberBlack))
     print(vars(uberBlack.driver))
+
+    user1 = User("Daniel Torres", "ASD34567123")
+    print(vars(user1))
