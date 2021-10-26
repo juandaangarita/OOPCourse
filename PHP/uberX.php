@@ -9,6 +9,14 @@ class UberX extends Car {
         $this->brand = $brand;
         $this->model = $model;
     }
+
+    public function printDataCar() {
+        parent::printDataCar();
+        echo "
+            Brand: $this->brand <br>
+            Model: {$this->model} <br>
+        ";
+    }
 }
 
 ?>
