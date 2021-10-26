@@ -52,3 +52,6 @@ La herencia en Java se define de la siguiente forma:
    this.VariablesPropias = variable;
    }
 
+El encapsulamiento es hacer que un dato sea inviolable o inalterable cuando se le modifique un modificador de acceso, un sinonimo de encapsulamiento es esconder algo o protegerlo, esto se realiza para prevenir que se dañe la lógica de negocio.
+
+El polimorfismo significa crear metodos con el mismo nombre pero con diferente comportamiento
